@@ -1,0 +1,91 @@
+:root {
+    --Softred: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Cream: hsl(27, 66%, 92%);
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --pale-orange: hsl(33, 100%, 98%)
+  }
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+
+  
+}
+body{
+background-color: var(--Cream);
+min-height: 100vh;
+}
+.balance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 375px;
+    margin-top: 45px;
+}
+.resume{
+    color: white;
+    text-align: left;
+    background: var(--Softred);
+   width: 75%;
+    margin:  25px 25px 25px;
+    border-radius: 15px;
+    padding: 30px; 
+    height: 55px;
+}
+h4{
+    font-weight: 100;
+    color: white;
+}
+.amount{
+    font-size: 25px;
+ font-weight: bold;
+}
+.logo{
+    position: relative;
+    left: 205px;
+    top: -55px;
+   
+}
+.chart{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px; 
+    width: 75%;
+    height: 455px;
+}
+.total{
+    position: relative;
+    bottom: -60px;
+    color:var(--Medium-brown);
+}
+h3{
+    position: relative;
+    bottom: -60px;
+    font-size: 25px;
+}
+.percent{
+    position: relative;
+    bottom: -18px;
+    right: -235px;
+    font-weight: bold;
+}
+.last-monht{
+    color:var(--Medium-brown);
+    position: relative;
+    bottom: -20px;
+    right: -178px;
+    font-size: 14px;
+}
+hr{
+    background-color:var(--Medium-brown);
+    position: relative;
+bottom: -45px;
+}
+#myChart{
+    margin-top: 25px;
+}
+.attribution{
+    margin-top: 75px;
+}
